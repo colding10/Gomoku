@@ -1,6 +1,8 @@
 name: CMake
 
 on:
+  workflow_trigger:
+  
   push:
     branches: [ "main" ]
   pull_request:
