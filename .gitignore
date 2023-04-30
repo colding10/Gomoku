@@ -30,7 +30,7 @@
 *.a
 *.lib
 
-# Executables
+# Executabless
 *.exe
 *.out
 *.app
