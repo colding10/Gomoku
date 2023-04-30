@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="https://github.com/colding10/Gomoku">
-      <img src="https://raw.githubusercontent.com/colding10/Gomoku/adfcef6b83760c19fe876664bf6e46cd3c141152/images/logo.jpeg" alt="Logo" width="400" height="400">
+      <img src="images/Logo.png" alt="Logo" width="400" height="400">
   </a>
 
   [![Contributors][contributors-shield]][contributors-url]
