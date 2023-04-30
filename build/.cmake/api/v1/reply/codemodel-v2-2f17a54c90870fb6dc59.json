@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gomoku",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gomobot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gomobot-Debug-c0a636495cc14b13661e.json",
+					"name" : "gomobot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gomogui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gomogui-Debug-7b94e254b824c140ee09.json",
+					"name" : "gomogui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gomolib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gomolib-Debug-7fb16fee2c6a47db61ec.json",
+					"name" : "gomolib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/colin/Projects/Gomoku/build",
+		"source" : "/Users/colin/Projects/Gomoku"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
