@@ -19,7 +19,7 @@
 </div>
 
   <p align="center">
-    A simple C++ gomoku project.
+    A simple C++ gomoku project. (i really need to fix that logo)
     <br />
     <a href="https://github.com/colding10/Gomoku"><strong>Explore the docs »</strong></a>
     <br />
