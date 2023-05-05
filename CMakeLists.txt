@@ -8,6 +8,12 @@ project(gomoku)
 set(CMAKE_CXX_STANDARD 17)
 
 # #
+# CMake Modules
+# #
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
+
+
+# #
 # Source code
 # #
 add_library(gomolib STATIC
