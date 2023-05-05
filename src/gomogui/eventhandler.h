@@ -1,7 +1,7 @@
 #ifndef GOMOGUI_EVENTHANDLER_H
 #define GOMOGUI_EVENTHANDLER_H
 
-#include <SDL2/SDL.h>
+#include <SDL.h>
 
 #include "gomolib.h"
 

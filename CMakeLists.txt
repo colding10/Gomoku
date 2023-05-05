@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD 17)
 # #
 # CMake Modules
 # #
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/sdl2")
 
 
 # #
@@ -38,7 +38,7 @@ target_link_libraries(gomobot PRIVATE gomolib)
 target_link_libraries(gomogui PRIVATE gomolib)
 target_link_libraries(gomogui PRIVATE gomobot)
 
-target_link_libraries(gomogui PUBLIC ${SDL2_LIBRARIES})
+target_link_libraries(gomogui PUBLIC SDL2::Main)
 
 target_include_directories(gomogui PUBLIC ${SDL2_INCLUDE_DIRS})
 target_include_directories(gomogui PRIVATE src/gomolib)

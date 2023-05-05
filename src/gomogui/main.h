@@ -1,7 +1,7 @@
 #ifndef MAIN_H_INCLUDED
 #define MAIN_H_INCLUDED
 
-#include <SDL2/SDL.h>
+#include <SDL.h>
 
 #include "gomolib.h"
 

@@ -1,7 +1,7 @@
 #ifndef GOMOGUI_EXTRADRAW_H
 #define GOMOGUI_EXTRADRAW_H
 
-#include <SDL2/SDL.h>
+#include <SDL.h>
 
 inline void SDL_RenderDrawCircle(SDL_Renderer* renderer, int centreX, int centreY, int radius) {
     const int diameter = (radius * 2);

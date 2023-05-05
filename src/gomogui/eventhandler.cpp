@@ -1,6 +1,6 @@
 #include "eventhandler.h"
 
-#include <SDL2/SDL.h>
+#include <SDL.h>
 
 #include "gomolib.h"
 #include "main.h"

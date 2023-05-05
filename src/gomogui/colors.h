@@ -1,7 +1,7 @@
 #ifndef GOMOGUI_COLORS_H
 #define GOMOGUI_COLORS_H
 
-#include <SDL2/SDL.h>
+#include <SDL.h>
 
 #include "gomolib.h"
 
