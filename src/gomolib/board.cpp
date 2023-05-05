@@ -28,9 +28,9 @@ int Board::evaluate(bool is_max_player) const {
                 }
             }
             if (black_count > 0 && white_count == 0) {
-                score += pow(10, black_count);
+                score += std::pow(10, black_count);
             } else if (white_count > 0 && black_count == 0) {
-                score -= pow(10, white_count);
+                score -= std::pow(10, white_count);
             }
         }
     }
@@ -48,9 +48,9 @@ int Board::evaluate(bool is_max_player) const {
                 }
             }
             if (black_count > 0 && white_count == 0) {
-                score += pow(10, black_count);
+                score += std::pow(10, black_count);
             } else if (white_count > 0 && black_count == 0) {
-                score -= pow(10, white_count);
+                score -= std::pow(10, white_count);
             }
         }
     }
@@ -68,9 +68,9 @@ int Board::evaluate(bool is_max_player) const {
                 }
             }
             if (black_count > 0 && white_count == 0) {
-                score += pow(10, black_count);
+                score += std::pow(10, black_count);
             } else if (white_count > 0 && black_count == 0) {
-                score -= pow(10, white_count);
+                score -= std::pow(10, white_count);
             }
         }
     }
@@ -87,9 +87,9 @@ int Board::evaluate(bool is_max_player) const {
                 }
             }
             if (black_count > 0 && white_count == 0) {
-                score += pow(10, black_count);
+                score += std::pow(10, black_count);
             } else if (white_count > 0 && black_count == 0) {
-                score -= pow(10, white_count);
+                score -= std::pow(10, white_count);
             }
         }
     }
