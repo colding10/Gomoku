@@ -1,6 +1,8 @@
 #include <cctype>
 #include <climits>
+#include <cmath>
 #include <iostream>
+#include <limits>
 
 #include "gomolib.h"
 
