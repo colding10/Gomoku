@@ -1,6 +1,7 @@
 #include "board.h"
 
 #include <iostream>
+#include <limits>
 #include <vector>
 
 #include "types.h"
@@ -11,7 +12,7 @@ int Board::evaluate(bool is_max_player) const {
     if (this->wasWinningMove()) {
         return std::numeric_limits<int>::max() * (is_max_player ? -1 : 1);
     }
-    
+
     int score = 0;
 
     // Check rows
